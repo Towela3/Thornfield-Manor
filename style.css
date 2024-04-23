@@ -17,7 +17,7 @@ body{
 
 .slider{
   position: relative;
-  background: rgba(26, 0, 0, 0.471);
+  background: black;
   width: 1400px;
   min-height: 750px;
   margin: 20px;
