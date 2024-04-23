@@ -12,13 +12,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #20202082;
+  background: #6363633a;
 }
 
 .slider{
   position: relative;
-  background: rgba(26, 0, 0, 0.537);
-  width: 1200px;
+  background: rgba(26, 0, 0, 0.471);
+  width: 1400px;
   min-height: 750px;
   margin: 20px;
   overflow: hidden;
@@ -52,7 +52,7 @@ body{
   margin-top: 50px;
   margin-left: 50px;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 5px 25px rgba(50, 50, 50, 0.083);
 }
 
