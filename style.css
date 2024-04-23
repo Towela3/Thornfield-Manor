@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Courier new", serif;
 }
 
 body{
@@ -12,12 +12,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ffffff82;
+  background: #20202082;
 }
 
 .slider{
   position: relative;
-  background: #a5a8e4;
+  background: rgba(26, 0, 0, 0.537);
   width: 1200px;
   min-height: 750px;
   margin: 20px;
@@ -46,23 +46,23 @@ body{
 
 .slider .slide .info{
   position: absolute;
-  color: #222;
-  background: rgba(255, 255, 255, 0.3);
+  color: #efeaea;
+  background: rgba(25, 25, 25, 0.683);
   width: 75%;
   margin-top: 50px;
   margin-left: 50px;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+  box-shadow: 0 5px 25px rgba(50, 50, 50, 0.083);
 }
 
 .slider .slide .info h2{
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 2.5em;
+  font-weight: 600;
 }
 
 .slider .slide .info p{
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 300;
 }
 
@@ -116,7 +116,7 @@ body{
 }
 
 .navigation-visibility .slide-icon.active{
-  background: #4285F4;
+  background: rgba(148, 21, 21, 0.2);
 }
 
 @media (max-width: 900px){
